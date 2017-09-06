@@ -1,6 +1,5 @@
 *{
 
-
 }
 
 body{
@@ -73,11 +72,15 @@ nav ul{
 }
 
 div.picture{
-  display: block;
+  text-align:center;
   margin-top:50px;
-  margin-left: 17%;
   margin-right: auto;
+
+}
+
+div.picture img{
   border-radius: 25px;
+  width:100%;
 }
 
 hr{
@@ -99,7 +102,7 @@ hr{
 .about{
   font-family: 'Oswald', sans-serif;
   width:25%;
-  margin-left:17%;
+  display: inline-block;
 }
 .about h3{
   color:red;
@@ -108,18 +111,30 @@ hr{
 
 }
 
+.work{
+  font-family: 'Oswald', sans-serif;
+  display:inline-block;
+  width:25%;
+}
 
-.myWork h3{
+.work h3{
   color:red;
   font-family: 'Lily Script One', cursive;
   text-align: center;
 
 }
 
-.myWork{
-  font-family: 'Oswald', sans-serif;
-  float:right;
+.aboutSection{
+  display:inline-block;
+  text-align:center;
 }
+
+.workSection{
+  display: inline-block;
+  text-align:center;
+}
+
+
 
 
 
@@ -127,11 +142,15 @@ hr{
 
 
 .one{
-  margin-top: 1%;
-  padding-left:10%;
-  float:left
+  margin-left:22%;
+  display:inline-block;
+  height:270px;
+  background-color:white;
+  width:150px;
+  border-radius: 25px;
 
 }
+
 
 .one h4{
   font-family: 'Oswald', sans-serif;
@@ -147,11 +166,19 @@ hr{
 
 }
 
-.two{
-  float:left;
-  margin:1%;
-
+.one img{
+  border-radius:25px;
 }
+
+.two{
+  margin: 0;
+  display:inline-block;
+  height:270px;
+  background-color:white;
+  width:150px;
+  border-radius: 25px;
+}
+
 
 .two h4{
   font-family: 'Oswald', sans-serif;
@@ -167,10 +194,19 @@ hr{
 
 }
 
-.three{
-  float:left;
-  margin:1%;
+.two img{
+  border-radius:25px;
 }
+
+.three{
+  margin: 0;
+  display:inline-block;
+  height:270px;
+  background-color:white;
+  width:150px;
+  border-radius: 25px;
+}
+
 
 .three h4{
   font-family: 'Oswald', sans-serif;
@@ -186,10 +222,20 @@ hr{
 
 }
 
-.four{
-  float:left;
-  margin:1%;
+.three img{
+  border-radius:25px;
 }
+
+
+.four{
+  margin: 0;
+  display:inline-block;
+  height:270px;
+  background-color:white;
+  width:150px;
+  border-radius: 25px;
+}
+
 
 .four h4{
   font-family: 'Oswald', sans-serif;
@@ -205,10 +251,19 @@ hr{
 
 }
 
-.five{
-  float:left;
-  margin:1%;
+.four img{
+  border-radius:25px;
 }
+
+.five{
+  margin: 0;
+  display:inline-block;
+  height:270px;
+  background-color:white;
+  width:150px;
+  border-radius: 25px;
+}
+
 
 .five h4{
   font-family: 'Oswald', sans-serif;
@@ -224,10 +279,21 @@ hr{
 
 }
 
-.six{
-  float:left;
-  margin:1%;
+.five img{
+  border-radius:25px;
 }
+
+.six{
+  margin: 0;
+  display:inline-block;
+  height:270px;
+  background-color:white;
+  width:150px;
+  border-radius: 25px;
+  margin-left:22%;
+
+}
+
 
 .six h4{
   font-family: 'Oswald', sans-serif;
@@ -243,10 +309,19 @@ hr{
 
 }
 
-.seven{
-  float:left;
-    margin:1%;
+.six img{
+  border-radius:25px;
 }
+
+.seven{
+  margin: 0;
+  display:inline-block;
+  height:270px;
+  background-color:white;
+  width:150px;
+  border-radius: 25px;
+}
+
 
 .seven h4{
   font-family: 'Oswald', sans-serif;
@@ -262,10 +337,19 @@ hr{
 
 }
 
-.eight{
-  float:left;
-  margin:1%;
+.seven img{
+  border-radius:25px;
 }
+
+.eight{
+  margin: 0;
+  display:inline-block;
+  height:270px;
+  background-color:white;
+  width:150px;
+  border-radius: 25px;
+}
+
 
 .eight h4{
   font-family: 'Oswald', sans-serif;
@@ -281,10 +365,19 @@ hr{
 
 }
 
-.nine{
-  float:left;
-  margin:1%;
+.eight img{
+  border-radius:25px;
 }
+
+.nine{
+  margin: 0;
+  display:inline-block;
+  height:270px;
+  background-color:white;
+  width:150px;
+  border-radius: 25px;
+}
+
 
 .nine h4{
   font-family: 'Oswald', sans-serif;
@@ -300,10 +393,19 @@ hr{
 
 }
 
-.ten{
-  float:left;
-  margin:1%;
+.nine img{
+  border-radius:25px;
 }
+
+.ten{
+  margin: 0;
+  display:inline-block;
+  height:270px;
+  background-color:white;
+  width:150px;
+  border-radius: 25px;
+}
+
 
 .ten h4{
   font-family: 'Oswald', sans-serif;
@@ -318,6 +420,18 @@ hr{
   line-height: 3%;
 
 }
+
+.ten img{
+  border-radius:25px;
+}
+
+
+
+
+
+
+
+
 
 
 .thanks{
