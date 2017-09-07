@@ -101,8 +101,10 @@ hr{
 
 .about{
   font-family: 'Oswald', sans-serif;
-  width:25%;
+  width:48%;
   display: inline-block;
+  float:left;
+  margin-right:4%;
 }
 .about h3{
   color:red;
@@ -114,7 +116,8 @@ hr{
 .work{
   font-family: 'Oswald', sans-serif;
   display:inline-block;
-  width:25%;
+  width:48%;
+
 }
 
 .work h3{
@@ -134,15 +137,9 @@ hr{
   text-align:center;
 }
 
-
-
-
-
-
-
-
-.one{
-  margin-left:22%;
+.box{
+  margin-left:2%;
+  margin-bottom:2%;
   display:inline-block;
   height:270px;
   background-color:white;
@@ -151,288 +148,23 @@ hr{
 
 }
 
-
-.one h4{
+.box h4{
   font-family: 'Oswald', sans-serif;
   color:#939491;
   line-height: 3%;
 
 }
 
-.one h6{
+.box h6{
   font-family: 'Oswald', sans-serif;
   color:red;
   line-height: 3%;
 
 }
 
-.one img{
+.box img{
   border-radius:25px;
 }
-
-.two{
-  margin: 0;
-  display:inline-block;
-  height:270px;
-  background-color:white;
-  width:150px;
-  border-radius: 25px;
-}
-
-
-.two h4{
-  font-family: 'Oswald', sans-serif;
-  color:#939491;
-  line-height: 3%;
-
-}
-
-.two h6{
-  font-family: 'Oswald', sans-serif;
-  color:red;
-  line-height: 3%;
-
-}
-
-.two img{
-  border-radius:25px;
-}
-
-.three{
-  margin: 0;
-  display:inline-block;
-  height:270px;
-  background-color:white;
-  width:150px;
-  border-radius: 25px;
-}
-
-
-.three h4{
-  font-family: 'Oswald', sans-serif;
-  color:#939491;
-  line-height: 3%;
-
-}
-
-.three h6{
-  font-family: 'Oswald', sans-serif;
-  color:red;
-  line-height: 3%;
-
-}
-
-.three img{
-  border-radius:25px;
-}
-
-
-.four{
-  margin: 0;
-  display:inline-block;
-  height:270px;
-  background-color:white;
-  width:150px;
-  border-radius: 25px;
-}
-
-
-.four h4{
-  font-family: 'Oswald', sans-serif;
-  color:#939491;
-  line-height: 3%;
-
-}
-
-.four h6{
-  font-family: 'Oswald', sans-serif;
-  color:red;
-  line-height: 3%;
-
-}
-
-.four img{
-  border-radius:25px;
-}
-
-.five{
-  margin: 0;
-  display:inline-block;
-  height:270px;
-  background-color:white;
-  width:150px;
-  border-radius: 25px;
-}
-
-
-.five h4{
-  font-family: 'Oswald', sans-serif;
-  color:#939491;
-  line-height: 3%;
-
-}
-
-.five h6{
-  font-family: 'Oswald', sans-serif;
-  color:red;
-  line-height: 3%;
-
-}
-
-.five img{
-  border-radius:25px;
-}
-
-.six{
-  margin: 0;
-  display:inline-block;
-  height:270px;
-  background-color:white;
-  width:150px;
-  border-radius: 25px;
-  margin-left:22%;
-
-}
-
-
-.six h4{
-  font-family: 'Oswald', sans-serif;
-  color:#939491;
-  line-height: 3%;
-
-}
-
-.six h6{
-  font-family: 'Oswald', sans-serif;
-  color:red;
-  line-height: 3%;
-
-}
-
-.six img{
-  border-radius:25px;
-}
-
-.seven{
-  margin: 0;
-  display:inline-block;
-  height:270px;
-  background-color:white;
-  width:150px;
-  border-radius: 25px;
-}
-
-
-.seven h4{
-  font-family: 'Oswald', sans-serif;
-  color:#939491;
-  line-height: 3%;
-
-}
-
-.seven h6{
-  font-family: 'Oswald', sans-serif;
-  color:red;
-  line-height: 3%;
-
-}
-
-.seven img{
-  border-radius:25px;
-}
-
-.eight{
-  margin: 0;
-  display:inline-block;
-  height:270px;
-  background-color:white;
-  width:150px;
-  border-radius: 25px;
-}
-
-
-.eight h4{
-  font-family: 'Oswald', sans-serif;
-  color:#939491;
-  line-height: 3%;
-
-}
-
-.eight h6{
-  font-family: 'Oswald', sans-serif;
-  color:red;
-  line-height: 3%;
-
-}
-
-.eight img{
-  border-radius:25px;
-}
-
-.nine{
-  margin: 0;
-  display:inline-block;
-  height:270px;
-  background-color:white;
-  width:150px;
-  border-radius: 25px;
-}
-
-
-.nine h4{
-  font-family: 'Oswald', sans-serif;
-  color:#939491;
-  line-height: 3%;
-
-}
-
-.nine h6{
-  font-family: 'Oswald', sans-serif;
-  color:red;
-  line-height: 3%;
-
-}
-
-.nine img{
-  border-radius:25px;
-}
-
-.ten{
-  margin: 0;
-  display:inline-block;
-  height:270px;
-  background-color:white;
-  width:150px;
-  border-radius: 25px;
-}
-
-
-.ten h4{
-  font-family: 'Oswald', sans-serif;
-  color:#939491;
-  line-height: 3%;
-
-}
-
-.ten h6{
-  font-family: 'Oswald', sans-serif;
-  color:red;
-  line-height: 3%;
-
-}
-
-.ten img{
-  border-radius:25px;
-}
-
-
-
-
-
-
-
-
-
 
 .thanks{
   font-family: 'Lily Script One', cursive;
@@ -441,8 +173,6 @@ hr{
   width:100%;
   color:red;
 }
-
-
 
 .contactForm{
   font-family: 'Oswald', sans-serif;
